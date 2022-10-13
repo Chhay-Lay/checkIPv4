@@ -1,5 +1,5 @@
 <?php
-	function checkIPv4($ip): int
+	function checkIPv4($ip): boolean
 	{
 		$each_part = explode('.', $ip);
 		
